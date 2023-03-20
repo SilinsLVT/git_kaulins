@@ -4,29 +4,29 @@ import java.util.Scanner;
 public class Cirks {
 
 	static void mestKaulinu(int reizes){
-		
-		int skaitlis,reizes;
+		int skaitlis;
 		Random rand = new Random();
-<<<<<<< HEAD
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Cik reizes mest kaulņu?");
-		reizes = scan.nextInt();
 		for(int i=1;i<=reizes;i++){
+			skaitlis = rand.nextInt(6)+1;
 		skaitlis = rand.nextInt(6)+1;
 		System.out.println("Uzkrita skaitlis: "+skaitlis);
 
 		}
-		scan.close();
-=======
-		for(int i=1; i<=reizes;i++){
-		skaitlis = rand.nextInt(6)+1;
-		System.out.println("Jums uzkrita "+skaitlis);
-	}
-	}
-	
-	public static void main(String[] args) {
-		mestKaulinu(3);
->>>>>>> lukasaZars
 	}
 
+		
+	
+	public static void main(String[] args) {
+		int reizes;
+		Random rand = new Random();
+		Scanner scan = new Scanner(System.in);
+		do{
+		System.out.println("Cik reizes mest kaulņu?");
+		reizes = scan.nextInt();
+		}while(reizes<1);
+		mestKaulinu(reizes);
+		scan.close();
+	
+
+	}
 }

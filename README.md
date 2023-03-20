@@ -8,7 +8,7 @@ Java metamā kauliņa projekts, kurš versionēts ar Git
 - [x] Izvediots personīgasi GitHub konts
 - [x] Izveidots pirmais repo GitHub
 - [x] Lokalais projekts izveidots GitHub krātuvē
-- [ ] Papildināt GitHub repo un iegūt to lokālai lietošanai
+- [x] Papildināt GitHub repo un iegūt to lokālai lietošanai
 - [ ] Projektam pieslēdzies vēl viens programmētājs, veikta kopdarbošanās
-- [ ] Projektā ieviests jauns zars(branch)
-- [ ] Veikta sapludināšana un novērsts merge konflikts
+- [x] Projektā ieviests jauns zars(branch)
+- [ ] Veikta abu programētāju darbu sapludināšana un novērsts merge konflikts
